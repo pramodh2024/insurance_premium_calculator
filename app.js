@@ -1,33 +1,33 @@
 const masterData = {
   esc: {
     label: "ESC",
-    sumLabel: "ESC - Sum Insured (INR)",
-    premiumLabel: "Total Premium (INR)",
+    sumLabel: "Sum Insured (INR)",
+    premiumLabel: "Total Premium (INR) - cost per family",
     premiumNote: "Premium",
     options: [
-      { sumInsured: 150000, premium: 18880 },
-      { sumInsured: 200000, premium: 24500 },
-      { sumInsured: 300000, premium: 28500 },
-      { sumInsured: 500000, premium: 36580 },
+      { sumInsured: 150000, premium: 10000 },
+      { sumInsured: 200000, premium: 15000 },
+      { sumInsured: 300000, premium: 20000 },
+      { sumInsured: 500000, premium: 25000 },
       { sumInsured: 700000, premium: 42500 },
       { sumInsured: 1000000, premium: 59000 }
     ]
   },
   parents: {
     label: "Parents",
-    sumLabel: "Parents - Sum Insured (INR)",
-    premiumLabel: "Premium per Life (INR)",
+    sumLabel: "Sum Insured (INR)",
+    premiumLabel: "Total Premium (INR) - cost per person",
     premiumNote: "Premium per life",
     options: [
-      { sumInsured: 300000, premium: 29500 },
-      { sumInsured: 500000, premium: 35400 },
-      { sumInsured: 800000, premium: 47200 },
-      { sumInsured: 1000000, premium: 59000 }
+      { sumInsured: 300000, premium: 25000 },
+      { sumInsured: 500000, premium: 30000 },
+      { sumInsured: 700000, premium: 59000 },
+      { sumInsured: 1000000, premium: 88500 }
     ]
   },
   topup: {
     label: "Top-Up",
-    sumLabel: "Top-Up - Sum Insured (INR)",
+    sumLabel: "Sum Insured (INR)",
     premiumLabel: "Total Premium (INR)",
     premiumNote: "Premium",
     options: [
@@ -35,7 +35,7 @@ const masterData = {
       { sumInsured: 200000, premium: 35400 },
       { sumInsured: 300000, premium: 47200 },
       { sumInsured: 400000, premium: 59000 },
-      { sumInsured: 500000, premium: 70800 }
+      { sumInsured: 500000, premium: 76700 }
     ]
   }
 };
